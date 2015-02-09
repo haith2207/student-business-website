@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SBWDataModelStoreContainer" CdmEntityContainer="SBWDataEntities">
+    <EntitySetMapping Name="ACCOUNTS">
+      <EntityTypeMapping TypeName="SBWDataModel.ACCOUNT">
+        <MappingFragment StoreEntitySet="ACCOUNTS">
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="ROLE_SEQ" ColumnName="ROLE_SEQ" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="APPLICANTS">
+      <EntityTypeMapping TypeName="SBWDataModel.APPLICANT">
+        <MappingFragment StoreEntitySet="APPLICANTS">
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="FIRST_NAME" ColumnName="FIRST_NAME" />
+          <ScalarProperty Name="LAST_NAME" ColumnName="LAST_NAME" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="linkCV" ColumnName="linkCV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLOYERs">
+      <EntityTypeMapping TypeName="SBWDataModel.EMPLOYER">
+        <MappingFragment StoreEntitySet="EMPLOYER">
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="DESCRIPTIONS" ColumnName="DESCRIPTIONS" />
+          <ScalarProperty Name="STAFF_APPROVE" ColumnName="STAFF_APPROVE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JOB_APPLICANTS">
+      <EntityTypeMapping TypeName="SBWDataModel.JOB_APPLICANTS">
+        <MappingFragment StoreEntitySet="JOB_APPLICANTS">
+          <ScalarProperty Name="USER_APPLICANT" ColumnName="USER_APPLICANT" />
+          <ScalarProperty Name="JOB_SEQ" ColumnName="JOB_SEQ" />
+          <ScalarProperty Name="APPLY_TIME" ColumnName="APPLY_TIME" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JOB_CATEGORIES">
+      <EntityTypeMapping TypeName="SBWDataModel.JOB_CATEGORIES">
+        <MappingFragment StoreEntitySet="JOB_CATEGORIES">
+          <ScalarProperty Name="JOB_CATEGORY_SEQ" ColumnName="JOB_CATEGORY_SEQ" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JOBS">
+      <EntityTypeMapping TypeName="SBWDataModel.JOB">
+        <MappingFragment StoreEntitySet="JOBS">
+          <ScalarProperty Name="JOB_SEQ" ColumnName="JOB_SEQ" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTIONS" ColumnName="DESCRIPTIONS" />
+          <ScalarProperty Name="START_DATE" ColumnName="START_DATE" />
+          <ScalarProperty Name="END_DATE" ColumnName="END_DATE" />
+          <ScalarProperty Name="CANDIDATE_QUANTITY" ColumnName="CANDIDATE_QUANTITY" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLES">
+      <EntityTypeMapping TypeName="SBWDataModel.ROLE">
+        <MappingFragment StoreEntitySet="ROLES">
+          <ScalarProperty Name="ROLE_SEQ" ColumnName="ROLE_SEQ" />
+          <ScalarProperty Name="ROLE_NAME" ColumnName="ROLE_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SKILLS">
+      <EntityTypeMapping TypeName="SBWDataModel.SKILL">
+        <MappingFragment StoreEntitySet="SKILLS">
+          <ScalarProperty Name="SKILL_SEQ" ColumnName="SKILL_SEQ" />
+          <ScalarProperty Name="SKILL_NAME" ColumnName="SKILL_NAME" />
+          <ScalarProperty Name="DESCRIPTIONS" ColumnName="DESCRIPTIONS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFFS">
+      <EntityTypeMapping TypeName="SBWDataModel.STAFF">
+        <MappingFragment StoreEntitySet="STAFFS">
+          <ScalarProperty Name="STAFF_SEQ" ColumnName="STAFF_SEQ" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="FIRST_NAME" ColumnName="FIRST_NAME" />
+          <ScalarProperty Name="LAST_NAME" ColumnName="LAST_NAME" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUGGESTIONS">
+      <EntityTypeMapping TypeName="SBWDataModel.SUGGESTION">
+        <MappingFragment StoreEntitySet="SUGGESTIONS">
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="JOBS_SEQ" ColumnName="JOBS_SEQ" />
+          <ScalarProperty Name="EVENT_SEQ" ColumnName="EVENT_SEQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SBWDataModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIMEs">
+      <EntityTypeMapping TypeName="SBWDataModel.TIME">
+        <MappingFragment StoreEntitySet="TIME">
+          <ScalarProperty Name="TIME_SEQ" ColumnName="TIME_SEQ" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="APPLICANT_CATEGORIES" TypeName="SBWDataModel.APPLICANT_CATEGORIES" StoreEntitySet="APPLICANT_CATEGORIES">
+      <EndProperty Name="APPLICANTS">
+        <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+      </EndProperty>
+      <EndProperty Name="JOB_CATEGORIES">
+        <ScalarProperty Name="JOB_CATEGORY_SEQ" ColumnName="JOB_CATEGORY_SEQ" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="APPLICANT_FREETIME" TypeName="SBWDataModel.APPLICANT_FREETIME" StoreEntitySet="APPLICANT_FREETIME">
+      <EndProperty Name="APPLICANTS">
+        <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+      </EndProperty>
+      <EndProperty Name="TIME">
+        <ScalarProperty Name="TIME_SEQ" ColumnName="TIME_SEQ" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="APPLICANTS_SKILLS" TypeName="SBWDataModel.APPLICANTS_SKILLS" StoreEntitySet="APPLICANTS_SKILLS">
+      <EndProperty Name="APPLICANTS">
+        <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+      </EndProperty>
+      <EndProperty Name="SKILLS">
+        <ScalarProperty Name="SKILL_SEQ" ColumnName="SKILL_SEQ" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="JOBCATEGORIES_JOBS" TypeName="SBWDataModel.JOBCATEGORIES_JOBS" StoreEntitySet="JOBCATEGORIES_JOBS">
+      <EndProperty Name="JOB_CATEGORIES">
+        <ScalarProperty Name="JOB_CATEGORY_SEQ" ColumnName="JOB_CATEGORY_SEQ" />
+      </EndProperty>
+      <EndProperty Name="JOBS">
+        <ScalarProperty Name="JOB_SEQ" ColumnName="JOB_SEQ" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="JOBS_TIME" TypeName="SBWDataModel.JOBS_TIME" StoreEntitySet="JOBS_TIME">
+      <EndProperty Name="JOBS">
+        <ScalarProperty Name="JOB_SEQ" ColumnName="JOB_SEQ" />
+      </EndProperty>
+      <EndProperty Name="TIME">
+        <ScalarProperty Name="TIME_SEQ" ColumnName="TIME_SEQ" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SKILLS_JOBS" TypeName="SBWDataModel.SKILLS_JOBS" StoreEntitySet="SKILLS_JOBS">
+      <EndProperty Name="JOBS">
+        <ScalarProperty Name="JOB_SEQ" ColumnName="JOB_SEQ" />
+      </EndProperty>
+      <EndProperty Name="SKILLS">
+        <ScalarProperty Name="SKILL_SEQ" ColumnName="SKILL_SEQ" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="SBWDataModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="SBWDataModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="SBWDataModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="SBWDataModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SBWDataModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="SBWDataModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SBWDataModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SBWDataModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="SBWDataModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
