@@ -24,3 +24,29 @@ E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\bin\
 E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.Razor.xml
 E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.dll
 E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.pdb
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\SBWebsite.dll.config
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\SBWebsite.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\SBWebsite.pdb
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\Antlr3.Runtime.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\EntityFramework.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\Microsoft.Web.Infrastructure.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\Newtonsoft.Json.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.Mvc.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.Optimization.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.Providers.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.Razor.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.Deployment.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.Razor.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\WebGrease.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\EntityFramework.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\Newtonsoft.Json.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.Mvc.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.Razor.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.Deployment.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.Razor.xml
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.csprojResolveAssemblyReference.cache
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.dll
+D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.pdb
