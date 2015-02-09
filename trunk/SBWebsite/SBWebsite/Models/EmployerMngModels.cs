@@ -14,8 +14,17 @@ namespace SBWebsite.Models
     public class CreateJobViewModel
     {
         [Required]
-        [Display(Name = "Title")]
+        [Display(Name = "Tiêu Đề")]
         public string Title { get; set; }
+
+        [Required]
+        [Display(Name = "Mô Tả Công Việc")]
+        public string JobDescription { get; set; }
+
+        [Required]
+        [Display(Name = "Yêu Cầu Công Việc")]
+        public string JobRequiments { get; set; }
+        
     }
 
 }
