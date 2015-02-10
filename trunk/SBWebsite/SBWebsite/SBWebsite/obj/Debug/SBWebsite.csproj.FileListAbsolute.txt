@@ -24,6 +24,10 @@ E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\bin\
 E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\bin\System.Web.WebPages.Razor.xml
 E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.dll
 E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.pdb
+<<<<<<< .mine
+E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\bin\EntityFramework.SqlServer.dll
+E:\FPT Educations\Captain Project\Source Code\SBWebsite\SBWebsite\SBWebsite\bin\EntityFramework.SqlServer.xml
+=======
 D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\SBWebsite.dll.config
 D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\SBWebsite.dll
 D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\SBWebsite.pdb
@@ -50,3 +54,4 @@ D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\bin\System.We
 D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.csprojResolveAssemblyReference.cache
 D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.dll
 D:\Capstone\student-business-website\SBWebsite\SBWebsite\SBWebsite\obj\Debug\SBWebsite.pdb
+>>>>>>> .r25
