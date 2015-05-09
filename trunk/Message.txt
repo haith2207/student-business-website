@@ -1,3 +1,0 @@
-﻿HaiTH: Linh kết nối database cho project nha.
-testSVN
-testAgain
